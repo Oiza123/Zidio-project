@@ -1,0 +1,19 @@
+body {
+  align-content: center;
+}
+.Home {
+  margin: 100px;
+  justify-self: center;
+}
+
+.LoginLink {
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgba(9, 81, 99, 0.795);
+  font-weight: bold;
+  font-size: larger;
+}
+
+.LoginLink:hover {
+  color: #c20d0d;
+}
