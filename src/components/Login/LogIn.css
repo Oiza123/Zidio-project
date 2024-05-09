@@ -1,0 +1,27 @@
+.pageContainer {
+  align-items: baseline;
+  border-radius: 10px;
+  background-color: rgb(18, 114, 199);
+  margin: 100px;
+  padding: 20px;
+}
+
+.pageHeader {
+  padding: 10px;
+  font-size: larger;
+}
+
+.emailInput {
+}
+
+.passwordInputDiv {
+}
+
+.forgotPasswordLink {
+}
+
+.passwordInput {
+}
+
+.registerLink {
+}

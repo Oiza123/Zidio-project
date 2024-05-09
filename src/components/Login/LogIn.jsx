@@ -21,11 +21,11 @@ function LogIn() {
 
   return (
     <>
-      <div className="pageContainer">
+      <div>
         <header>
           <p className="pageHeader">Welcome Back!</p>
         </header>
-        <form>
+        <form className="pageContainer">
           <input
             type="email"
             className="emailInput"

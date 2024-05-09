@@ -7,6 +7,7 @@ import "./App.css";
 import LogIn from "./components/Login/LogIn";
 import ForgotPassword from "./components/ForgotPassword/ForgotPassword";
 import SignUp from "./components/SignUp/SignUp";
+import Feedback from "./components/Feedback/Feedback";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/log-in" element={<LogIn />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/feed-back" element={<Feedback />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>

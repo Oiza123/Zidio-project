@@ -5,7 +5,10 @@ function ForgotPassword() {
     <h1>
       <p>
         Forgot Password
-        <Link to="/log-in">Back to Log In</Link>
+        <p>
+          {" "}
+          <Link to="/log-in">Back to Log In</Link>
+        </p>
       </p>
     </h1>
   );
